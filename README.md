@@ -1,5 +1,5 @@
 # Raspberry-Pi-Model-Lookup
-A very simple bash script to tell you what sort of Pi you're using. See the (https://elinux.org/RPi_HardwareHistory)[RPi HardwareHistory] page from the (https://elinux.org/)[Embedded Linux] wiki for more information. This is also the source of the data 
+A very simple bash script to tell you what sort of Pi you're using. See the [RPi HardwareHistory](https://elinux.org/RPi_HardwareHistory) page from the [Embedded Linux](https://elinux.org/) wiki for more information.  
 
 ## Installation
 `git clone`
