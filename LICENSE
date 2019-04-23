@@ -1,9 +1,17 @@
 This is free and unencumbered software released into the public domain.
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
+Except for the limitation relating to the rPiModels data structure
+listed below, anyone is free to copy, modify, publish, use, compile, 
+sell, or distribute this software, either in source code form or as 
+a compiled binary, for any purpose, commercial or non-commercial, and 
+by any means.
+
+Exception relating to rPiModels data structure: This data structure
+is derived from the RPi HardwareHitory page on the Embedded Linux wiki 
+which is copyright under a Creative Commons CC BY-SA 3.0 license.
+  cf. https://elinux.org/RPi_HardwareHistory
+      https://elinux.org/RPi_HardwareHistory
+      https://creativecommons.org/licenses/by-sa/3.0/
 
 In jurisdictions that recognize copyright laws, the author or authors
 of this software dedicate any and all copyright interest in the
