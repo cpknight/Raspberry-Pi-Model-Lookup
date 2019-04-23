@@ -7,7 +7,7 @@ A very simple bash script to tell you what sort of Pi you're using. See the [RPi
 
 ## Usage
  - `./RPiModel` (ie. without any parameters)
- - *Returns:* simply a model description, eg. _3 Model B (Sony) Q1 2016_, or _nothing at all_.
+ - *Returns:* simply a model description, eg. _3 Model B (Sony) Q1 2016_, or _nothing at all_ (if you're not running on a RPi).
 
 ## License
 Please see the applicable [License](LICENSE).
