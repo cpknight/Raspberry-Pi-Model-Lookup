@@ -47,10 +47,10 @@ rPiModels=( ["rBeta"]="B (Beta) Q1 2012" \
 if [ -e /proc/cpuinfo ]; then
   piModelIndex="$(cat /proc/cpuinfo | awk '/^Revision/ {sub("^1000", "", $3); print $3}' 2> /dev/null)"
 
-  if [ ! -z $piModelIndex ]; then
+  if [ -n $piModelIndex ]; then
     rPiModelIndex="r${piModelIndex}"
 
-    if [ ! -z $rPiModelIndex ]; then
+    if [ -n $rPiModelIndex ]; then
       echo "RPi ${rPiModels[${rPiModelIndex}]}"
     fi
 
