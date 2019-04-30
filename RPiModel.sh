@@ -34,7 +34,8 @@ rPiModels=( ["rBeta"]="B (Beta) Q1 2012" \
             ["ra22082"]="3 Model B (Embest) Q1 2016" \
             ["ra32082"]="3 Model B (Sony Japan) Q4 2016" \
             ["ra020d3"]="3 Model B+ (Sony) Q1 2018" \
-            ["r9020e0"]="3 Model A+ (Sony) Q4 2018" )
+            ["r9020e0"]="3 Model A+ (Sony) Q4 2018" \ 
+            ["r"]="Other/Unknown Model" )
 
 if [ -e /proc/cpuinfo ]; then
   piModelIndex="$(cat /proc/cpuinfo | awk '/^Revision/ {sub("^1000", "", $3); print $3}' 2> /dev/null)"
