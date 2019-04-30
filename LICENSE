@@ -8,10 +8,15 @@ by any means.
 
 Exception relating to rPiModels data structure: This data structure
 is derived from the RPi HardwareHistory page on the Embedded Linux wiki 
-which is copyright under a Creative Commons CC BY-SA 3.0 license.
+which is copyright under a Creative Commons CC BY-SA 3.0 license;
   cf. https://elinux.org/RPi_HardwareHistory
       https://elinux.org/RPi_HardwareHistory
       https://creativecommons.org/licenses/by-sa/3.0/
+and from the Raspberry Pi Foundation's Raspberry Pi revision codes 
+page which is copyright  under a Creative Common CC BY-SA 4.0 license.
+  cf. https://www.raspberrypi.org/documentation/hardware/raspberrypi/revision-codes/
+      https://www.raspberrypi.org/creative-commons/
+      https://creativecommons.org/licenses/by-sa/4.0/
 
 In jurisdictions that recognize copyright laws, the author or authors
 of this software dedicate any and all copyright interest in the
