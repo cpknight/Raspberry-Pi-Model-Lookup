@@ -47,11 +47,8 @@ if [ -e /proc/cpuinfo ]; then
   piModelIndex=r"$(cat /proc/cpuinfo | awk '/^Revision/ {sub("^1000", "", $3); print $3}' 2> /dev/null)"
   piModel=${!piModelIndex}
 
-  # echo "Index: $piModelIndex"
-  # echo "Model: $piModel"
-
   if [ -n $piModel ]; then
-    echo "RPi ${rPiModels[${rPiModelIndex}]}"
+    echo "RPi $piModel"
   fi
 
 fi
